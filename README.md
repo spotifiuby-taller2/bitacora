@@ -14,4 +14,10 @@
 - Se logró un sistema adhoc para impactar los cambios en la base de datos al hacer un despliegue productivo.
 - Se integró el resultado de las pruebas con Insmbul y Coveralls.
 
+### Semana del 14/3/2022
+- Integración preliminar de datadog.
+- Login preliminar con datos biométricos y cuenta externa para usuarios, y con correo electrónico para admin.
+
+### Semana del 21/3/2022
+
 ## Postmortem del Proyecto
