@@ -19,5 +19,11 @@
 - Login preliminar con datos biométricos y cuenta externa para usuarios, y con correo electrónico para admin.
 
 ### Semana del 21/3/2022
+- Primer dashboard en datadog.
+- Despliegue exitoso de sign in, sign up y forgot password para backoffice.
+- Despliegue exitoso de sign in, sign up y forgot password para mobile.
+
+### Semana del 27/3/2022
+
 
 ## Postmortem del Proyecto
