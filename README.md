@@ -17,13 +17,21 @@
 ### Semana del 14/3/2022
 - Integración preliminar de datadog.
 - Login preliminar con datos biométricos y cuenta externa para usuarios, y con correo electrónico para admin.
+- Inicio preliminar de la parte de pagos.
 
 ### Semana del 21/3/2022
 - Primer dashboard en datadog.
 - Despliegue exitoso de sign in, sign up y forgot password para backoffice.
 - Despliegue exitoso de sign in, sign up y forgot password para mobile.
+- Integración preliminar con datadog para el seguimiento de requests.
 
 ### Semana del 27/3/2022
+- Inicio del gateway de apis.
+- Primera pantalla de administrador con listado, filtros y alta (de servicios/api-keys). 
+- Endpoint de crear wallet listo en servicio de pagos.
 
+### Semana del 3/4/2022
+
+### Semana del 10/4/2022
 
 ## Postmortem del Proyecto
