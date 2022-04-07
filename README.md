@@ -1,6 +1,8 @@
-# Documentación de spotifiuby
+# Spotifiuby
 
-## Documentación técnica
+## Guía de usuario de la app
+
+## Guía de usuario del backoffice
 
 ## Bitacora del proyecto
 
