@@ -1,3 +1,7 @@
+# Documentación de spotifiuby
+
+## Documentación técnica
+
 ## Bitacora del proyecto
 
 ### Semana del 20/2/2022
