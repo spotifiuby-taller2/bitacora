@@ -2,6 +2,31 @@
 
 ## Guía de usuario de la app
 
+### El Usuario entra por primera vez a la aplicación, desde aquí puede navegar por las distintas opciones que tiene para poder registrar y/o iniciar sesión:
+
+![alt text](media/HomeAuthScreen.png)
+
+### El Usuario primero necesita primero registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación:
+
+![alt text](media/SignUpScreen1.png)
+![alt text](media/SignUpScreen2.png)
+
+### Luego de ingresar sus datos el usuario recibe un mensaje por Whatsapp donde se indica cual es su PIN de validación de usuario:
+
+![alt text](media/PINScreen.png)
+
+### Si el Usuario se registró como 'Artista' entonces será redireccionado a la pantalla de iniciar sesión, si entra como 'Listener' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, luego sera redireccionado a la pantalla de inicio de sesión:
+
+![alt text](media/RequestMusicalPreferencesScreen.png)
+
+### Si el Usuario ya se registro de manera exitosa entonces puede ir a 'iniciar sesión y ingresar con sus datos. Aqui el Usuario puede ingresar con una cuenta de Google o con sus datos Biometricos si lo prefiere:
+
+![alt text](media/SignInScreen.png)
+
+### Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar una nueva con la pantalla de '¿Olvido su Contraseña?'
+
+![alt text](media/ForgotPasswordScreen.png)
+
 ## Guía de usuario del backoffice
 
 ## Bitacora del proyecto
