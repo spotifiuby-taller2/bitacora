@@ -23,6 +23,10 @@
 
 ![alt text](media/SignInScreen.png)
 
+### Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista' o 'Listener':
+
+![alt text](media/RequestUserTypeToExternalUser.png)
+
 ### Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar una nueva con la pantalla de '¿Olvido su Contraseña?'
 
 ![alt text](media/ForgotPasswordScreen.png)
