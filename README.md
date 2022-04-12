@@ -66,6 +66,9 @@
 - Endpoint de crear wallet listo en servicio de pagos.
 
 ### Semana del 3/4/2022
+- Integración con Servicios desde el backoffice.
+- Despliegue dockerizado.
+- Endpoint listo de payments.
 
 ### Semana del 10/4/2022
 
