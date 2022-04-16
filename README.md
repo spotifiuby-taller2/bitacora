@@ -2,32 +2,32 @@
 
 ## Guía de usuario de la app
 
-### El Usuario entra por primera vez a la aplicación, desde aquí puede navegar por las distintas opciones que tiene para poder registrar y/o iniciar sesión:
+El Usuario entra por primera vez a la aplicación, desde aquí puede navegar por las distintas opciones que tiene para poder registrar y/o iniciar sesión:
 
 ![alt text](media/HomeAuthScreen.png)
 
-### El Usuario primero necesita primero registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación:
+El Usuario primero necesita primero registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación:
 
 ![alt text](media/SignUpScreen1.png)
 ![alt text](media/SignUpScreen2.png)
 
-### Luego de ingresar sus datos el usuario recibe un mensaje por Whatsapp donde se indica cual es su PIN de validación de usuario:
+Luego de ingresar sus datos el usuario recibe un mensaje por Whatsapp donde se indica cual es su PIN de validación de usuario:
 
 ![alt text](media/PINScreen.png)
 
-### Si el Usuario se registró como 'Artista' entonces será redireccionado a la pantalla de iniciar sesión, si entra como 'Listener' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, luego sera redireccionado a la pantalla de inicio de sesión:
+Si el Usuario se registró como 'Artista' entonces será redireccionado a la pantalla de iniciar sesión, si entra como 'Listener' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, luego sera redireccionado a la pantalla de inicio de sesión:
 
 ![alt text](media/RequestMusicalPreferencesScreen.png)
 
-### Si el Usuario ya se registro de manera exitosa entonces puede ir a 'iniciar sesión y ingresar con sus datos. Aqui el Usuario puede ingresar con una cuenta de Google o con sus datos Biometricos si lo prefiere:
+Si el Usuario ya se registro de manera exitosa entonces puede ir a 'iniciar sesión y ingresar con sus datos. Aqui el Usuario puede ingresar con una cuenta de Google o con sus datos Biometricos si lo prefiere:
 
 ![alt text](media/SignInScreen.png)
 
-### Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista' o 'Listener':
+Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista' o 'Listener':
 
 ![alt text](media/RequestUserTypeToExternalUser.png)
 
-### Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar una nueva con la pantalla de '¿Olvido su Contraseña?'
+Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar una nueva con la pantalla de '¿Olvido su Contraseña?'
 
 ![alt text](media/ForgotPasswordScreen.png)
 
@@ -50,7 +50,7 @@
 - Se integró el resultado de las pruebas con Insmbul y Coveralls.
 
 ### Semana del 14/3/2022
-- Integración preliminar de datadog.
+- Integración preliminar de Datadog.
 - Login preliminar con datos biométricos y cuenta externa para usuarios, y con correo electrónico para admin.
 - Inicio preliminar de la parte de pagos.
 
@@ -66,10 +66,17 @@
 - Endpoint de crear wallet listo en servicio de pagos.
 
 ### Semana del 3/4/2022
-- Integración con Servicios desde el backoffice.
+- Integración con servicios desde el backoffice.
 - Despliegue dockerizado.
-- Endpoint listo de payments.
+- Endpoints de payments.
 
 ### Semana del 10/4/2022
+- Integración con Twilio.
+- Capa de datos del repositorio con la información del contenido.
+- Avache del Gateway en Python.
+
+### Semana del 17/4/2022
+
+### Semana del 24/4/2022
 
 ## Postmortem del Proyecto
