@@ -73,7 +73,7 @@ Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar 
 ### Semana del 10/4/2022
 - Integración con Twilio.
 - Capa de datos del repositorio con la información del contenido.
-- Avache del Gateway en Python.
+- Avance del Gateway en Python.
 
 ### Semana del 17/4/2022
 
