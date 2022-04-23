@@ -76,6 +76,7 @@ Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar 
 - Avance del Gateway en Python.
 
 ### Semana del 17/4/2022
+- Se confirma que anda el login productivo.
 
 ### Semana del 24/4/2022
 
