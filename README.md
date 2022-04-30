@@ -77,7 +77,31 @@ Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar 
 
 ### Semana del 17/4/2022
 - Se confirma que anda el login productivo.
+- Carga preliminar de canción en Firebase.
 
 ### Semana del 24/4/2022
+- Lista de artistas en app, pudiendo seguir artista.
+- Búsqueda de artistas para agregar una canción. 
+- Editar perfil.
+
+### Semana del 1/5/2022
+
+### Semana del 8/5/2022
+
+### Semana del 15/5/2022
+
+### Semana del 22/5/2022
+
+### Semana del 29/5/2022
+
+### Semana del 5/6/2022
+
+### Semana del 12/6/2022
+
+### Semana del 19/6/2022
+
+### Semana del 26/6/2022
+
+### Semana del 3/7/2022
 
 ## Postmortem del Proyecto
