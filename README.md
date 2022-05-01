@@ -84,6 +84,8 @@ Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar 
 - Búsqueda de artistas para agregar una canción. 
 - Editar perfil.
 
+Justificación de los roles del usuario: alineados a la consigna, proponemos permitir a priori que un usuario pueda ser tanto oyente como artista. Esto es debido a que en servicios de contenido multimedia, se entiende que un usuario puede no solamente querer crear contenido, sino también consumir el de otros. De esta forma, un usuario tiene la posibilidad de aprovechar todas las posibilidades de la plataforma (al igual que ocurre con Youtube), o bien, optar por un conjunto limitado (solo oyente, para usuarios comunes, o solo artista, para cuentas profesionales). 
+
 ### Semana del 1/5/2022
 
 ### Semana del 8/5/2022
