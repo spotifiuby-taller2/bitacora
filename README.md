@@ -2,11 +2,11 @@
 
 ## Guía de usuario de la app
 
-El Usuario entra por primera vez a la aplicación, desde aquí puede navegar por las distintas opciones que tiene para poder registrar y/o iniciar sesión:
+El Usuario entra por primera vez a la aplicación, lo primero que se va a encontrar es con la pantalla de Iniciar Sesión. Una vez aquí el usuario puede iniciar su sesión con mail y contraseña (si ya tiene una cuenta creada), puede navegar a las pantallas para registrarse y para recuperar contraseña, o puede iniciar sesión con Google o con datos biométricos si lo desea:
 
-![alt text](media/HomeAuthScreen.png)
+![alt text](media/SignInScreen.png)
 
-El Usuario primero necesita primero registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación:
+Si Usuario no tiene una cuenta entonces primero necesita registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación:
 
 ![alt text](media/SignUpScreen1.png)
 ![alt text](media/SignUpScreen2.png)
@@ -15,15 +15,15 @@ Luego de ingresar sus datos el usuario recibe un mensaje por Whatsapp donde se i
 
 ![alt text](media/PINScreen.png)
 
-Si el Usuario se registró como 'Artista' entonces será redireccionado a la pantalla de iniciar sesión, si entra como 'Listener' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, luego sera redireccionado a la pantalla de inicio de sesión:
+Si el Usuario se registró como 'Artista' entonces será redireccionado a la pantalla de iniciar sesión, si entra como 'Oyente' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, una vez finalizado el registro del Usuario se podra entrar en la aplicación:
 
 ![alt text](media/RequestMusicalPreferencesScreen.png)
 
-Si el Usuario ya se registro de manera exitosa entonces puede ir a 'iniciar sesión y ingresar con sus datos. Aqui el Usuario puede ingresar con una cuenta de Google o con sus datos Biometricos si lo prefiere:
+Si el Usuario ya se registro de manera exitosa entonces puede ingresar a la aplicación con su mail y contraseña:
 
 ![alt text](media/SignInScreen.png)
 
-Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista' o 'Listener':
+Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista' o 'Oyente':
 
 ![alt text](media/RequestUserTypeToExternalUser.png)
 
