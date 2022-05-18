@@ -88,16 +88,22 @@ Justificación de los roles del usuario: alineados a la consigna, proponemos per
 
 ### Semana del 1/5/2022
 - Principio del chat.
-- Algunos retoques estéticos seǵun feedback.
+- Algunos retoques estéticos en la app seǵun feedback.
 - Avances menores (retrasados) del nuevo gateway.
 - Problemas con el reproductor.
 
 ### Semana del 8/5/2022
-- Avance del chat.
+- Chat con notificaciones.
+- Versión preliminar del reproductor, empezando a usar Dev Client en vez de Expo Go, y habiendo tenido que ajustar casi todas las dependencias. Hasta ahora fue uno de los cambios más traumaticos del proyecto.
+- Mejoras estéticas del backoffice.
 
 Justificación de porque los oyentes pueden chatear con artistas. La cantidad de seguidores de personalidades famosas (en nuestro caso, artistas) en una red social distribuye exponencialmente: existe un conjunto mayoritario de artistas con pocos seguidores, y un ínfima minoría que concentra cantidades millonarias (o el equivalente, según escala). En ese sentido, a la mayoría de los artistas les sirve tener un canal de acercamiento con su público, y en todo caso la restricción de que a un artista con muchísimos seguidores no se le pueda mandar un mensaje es una de las tantas funcionalidades adicionales que se podrían considerar en el marco de un caso real, pero que están fuera de scope.
 
 ### Semana del 15/5/2022
+- Agregar un contenido a favoritos.
+- Íconos en el perfil para reemplazar algunos de los botones.
+- Certificación de identidad para el artista.
+- Mejoras estéticas adicionales en el backoffice. 
 
 ### Semana del 22/5/2022
 
