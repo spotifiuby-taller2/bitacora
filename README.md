@@ -101,13 +101,15 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 
 ### Semana del 15/5/2022
 - Reproducir contenido.
-- Agregar un contenido a favoritos.
+- Agregar contenido a favoritos.
 - Íconos en el perfil para reemplazar algunos de los botones.
 - Certificación de identidad para el artista.
 - Mejoras estéticas adicionales en el backoffice. 
 - Bloquear contenido en backoffice.
 
 ### Semana del 22/5/2022
+- Home con "top 3".
+- Pruebas para la demo.
 
 ### Semana del 29/5/2022
 
