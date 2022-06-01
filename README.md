@@ -112,6 +112,8 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 - Pruebas para la demo.
 
 ### Semana del 29/5/2022
+- Algunas correcciones observadas en la demo.
+- Primer caso migrado con el nuevo gateway (que solo verifica la clave, y permite al servidor original hacer el request).
 
 ### Semana del 5/6/2022
 
