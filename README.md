@@ -115,10 +115,16 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 - Algunas correcciones observadas en la demo.
 - Primer caso migrado con el nuevo gateway (que solo verifica la clave, y permite al servidor original hacer el request).
 - Búsqueda por género. 
+- Certificado de artista reconocido. 
 
 ### Semana del 5/6/2022
+- Nuevo gateway funcionando.
+- Crear playlist.
+- Spinners sobre contenido que se está cargando
 
 ### Semana del 12/6/2022
+- Ajustes para la demo
+- Compartir playlist.
 
 ### Semana del 19/6/2022
 
