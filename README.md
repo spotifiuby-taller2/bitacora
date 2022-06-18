@@ -35,6 +35,27 @@ Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar 
 
 ## Bitacora del proyecto
 
+Al ingrear a la aplicación, se ve la pantalla de ingreso:
+
+![alt text](media/front_login.png)
+
+El vínculo para recuperar la contraseña permite ingresar el mail de la cuenta para obtener el enlace que permite cambiarla:
+
+![alt text](media/fron_forgot_password.png)
+
+Si se ingresa un mail no reconocido, se informará esto con un cartel informativo.
+
+Al seguir el enlace enviado por mail, se podrá ingresar la nueva contraseña.
+
+![alt text](media/front_new_password.png)
+
+Una vez que se ingresa a la aplicación, un menú superior permite ver las distintas pantallas.
+
+La de métricas muestra un tablero de Datadog con estadísticas de interés.
+
+![alt text](media/front_metrics.png)
+
+
 ### Semana del 20/2/2022
 - Se adecuó la arquitectura utilizada en Técnicas de Diseño, con el stack de React, Node, Express y PostgreSQL (con Sequelize como ORM). Al tener un conocimiento básico de este stack, esto puede permitir ahorrar mucho tiempo, y se entiende que tiene más soporte en términos de documentación online para el desarrollo de aplicaciones web que uno con backend en Python debido a su mayor difusión. Por otra parte, usar React Native tiene mútiples similitudes a React, con lo cual es el complemento natural para las tecnologías ya conocidas.
 - Se logra una comunicación básica entre los dos repositorios ahora existentes.
@@ -115,10 +136,16 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 - Algunas correcciones observadas en la demo.
 - Primer caso migrado con el nuevo gateway (que solo verifica la clave, y permite al servidor original hacer el request).
 - Búsqueda por género. 
+- Certificado de artista reconocido. 
 
 ### Semana del 5/6/2022
+- Nuevo gateway funcionando.
+- Crear playlist.
+- Spinners sobre contenido que se está cargando
 
 ### Semana del 12/6/2022
+- Ajustes para la demo
+- Compartir playlist.
 
 ### Semana del 19/6/2022
 
