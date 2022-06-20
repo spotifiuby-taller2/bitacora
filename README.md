@@ -147,6 +147,8 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 - Ajustes para la demo
 - Compartir playlist.
 
+Al agregar contenido premium en una playlist pública, cuando un usuario que no pagó la suscripción la quiera abrir, solo va a ver el contenido al que pueda acceder de manera gratuita.
+
 ### Semana del 19/6/2022
 
 ### Semana del 26/6/2022
