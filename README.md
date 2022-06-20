@@ -1,6 +1,4 @@
-# Spotifiuby
-
-## Guía de usuario de la app
+# Guía de usuario de la app Spotifiuby
 
 El Usuario entra por primera vez a la aplicación, lo primero que se va a encontrar es con la pantalla de Iniciar Sesión. Una vez aquí el usuario puede iniciar su sesión con mail y contraseña (si ya tiene una cuenta creada), puede navegar a las pantallas para registrarse y para recuperar contraseña, o puede iniciar sesión con Google o con datos biométricos si lo desea:
 
@@ -31,9 +29,7 @@ Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar 
 
 ![alt text](media/ForgotPasswordScreen.png)
 
-## Guía de usuario del backoffice
-
-## Bitacora del proyecto
+# Guía de usuario del backoffice
 
 Al ingrear a la aplicación, se ve la pantalla de ingreso:
 
@@ -55,6 +51,7 @@ La de métricas muestra un tablero de Datadog con estadísticas de interés.
 
 ![alt text](media/front_metrics.png)
 
+# Bitacora del proyecto
 
 ### Semana del 20/2/2022
 - Se adecuó la arquitectura utilizada en Técnicas de Diseño, con el stack de React, Node, Express y PostgreSQL (con Sequelize como ORM). Al tener un conocimiento básico de este stack, esto puede permitir ahorrar mucho tiempo, y se entiende que tiene más soporte en términos de documentación online para el desarrollo de aplicaciones web que uno con backend en Python debido a su mayor difusión. Por otra parte, usar React Native tiene mútiples similitudes a React, con lo cual es el complemento natural para las tecnologías ya conocidas.
