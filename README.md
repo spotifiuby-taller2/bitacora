@@ -147,6 +147,7 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 Al agregar contenido premium en una playlist pública, cuando un usuario que no pagó la suscripción la quiera abrir, solo va a ver el contenido al que pueda acceder de manera gratuita.
 
 ### Semana del 19/6/2022
+- Avances sobre el pago de la suscripción.
 
 ### Semana del 26/6/2022
 
