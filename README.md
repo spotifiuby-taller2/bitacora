@@ -147,10 +147,19 @@ Justificación de porque los oyentes pueden chatear con artistas. La cantidad de
 Al agregar contenido premium en una playlist pública, cuando un usuario que no pagó la suscripción la quiera abrir, solo va a ver el contenido al que pueda acceder de manera gratuita.
 
 ### Semana del 19/6/2022
-- Avances sobre el pago de la suscripción.
+- Contrato dado por la cátedra desplegado en Kovan.
 
 ### Semana del 26/6/2022
+- Aumento de cobertura en todos los repositorios llegando a niveles cercanos a los esperados. 
+- Avances sobre el pago de la suscripción.
 
 ### Semana del 3/7/2022
 
 ## Postmortem del Proyecto
+La materia resultó considerablemente compleja, no solamente por la abundancia de tecnologías que hay que aprender e integrar, en paralelo a sacar historias de usuario a contrareloj, sino porque ponerse de acuerdo entre 5 personas (siendo que no necesariamente durante todo el tp hay 5 flujos paralelizables) es particularmente desafiante. Como vemos en materias de gestión posteriores a las obligatorias de la rama de ingeniería de software, cada persona que se agrega a un equpo implica una carga de trabajo adicional asociada a su comunicación con el resto. Solamente si se puede solventar de maner fluída esto es que se logra que tener más personas aumenten el rendimiento en un proyecto que así lo requiera (cuando no, lo disminuye). Otra fuente de esfuerzo fueron los cambios imprevistos sobre los pendientes que se entendían como realizados, los cuales si bien son naturales en cualquier proyecto de software, pueden resultar incluso más engorrosos que el pendiente original, porque se está acarreando la complejidad de mantener una cierta funcionalidad en la medida en que se cambian los componentes que la permiten. 
+
+Una de las cuestiones que se hubieran manejado en forma distinta es el gateway. La mayoría de los integrantes del grupo vieron enunciados anteriores de la materia para empezar a constuir un scaffolding y amortiguar los problemas esencilaes de integración con nuevas tecnologías que eran esperables al principio del proyecto un tiempo antes de tener el enunciado del cuatrimestre. Sin embargo, a partir de los mismos no se entendió que era necesario utilizar de forma obligatoria ambos lenguajes (Javascript y Python) y ambas bases de datos (PostgreSQL y MongoDB). En consecuencia, el gateway tuvo que ser reconstruido luego del primer checkpoint, incorporando 2 tecnologías nuevas con su correspondiente despliegue e integración de un componente nuclear de la arquitectura. De haber sabido que esas tecnologías eran necesarias, se hubiera empezado a aprender lo básico de las mismas desde antes, como se hizo en Técnicas de Diseño con Node, Express, Docker, React, etc.
+
+En cuanto a la deuda técnica, hay varios comportamientos de aspectos gráficos tanto de la aplicación mobile como de la web que podrían estar encapsulados en componentes de React para ser reutilizables. Del mismo modo, los estilos que se usaron para los mismos podrían estar menos dispersos, no solamente evitando redundancias, sino para organizarlos en archivos específicos (similar a los .css al trabajar con HTML raw). Habiendo aprendido sobre frontend durante el proyecto, podría experimentarse a futuro al utilizar el análogo de la propuesta de Angular pero en React: esto es, pensar las funcionalidades en términos de componentes, cada uno con su archivo de estilos, y su inclusión en una pantalla (teniendo así las capas de "component", "screen" y "style"). Del lado del backend, casi no se utilizaron "clases" de Node, pero su uso podría erradicarse completamente en el futuro, tal como se hizo en los componentes gráficos (donde solo se utilizan Hooks).
+
+Finalmente, el proyecto (cuyo enunciado es el más largo de toda la carrera) resultó enriquecedor, ya que permite poner en práctica habilidades que se requiren y utilizan en la práctica profesional, así como también sirve como una pequeña experiencia de desarrollo no trivial. Sería deseable que otras materias incorporaran mayor énfasis en este tipo de prácticas como forma de internalizar conocimientos. 
