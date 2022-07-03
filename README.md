@@ -6,30 +6,51 @@ El Usuario entra por primera vez a la aplicación, lo primero que se va a encont
 
 ![alt text](media/SignInScreen.png)
 
-Si Usuario no tiene una cuenta entonces primero necesita registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación:
+Si el Usuario no tiene una cuenta entonces primero necesita registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación. Un Usuario puede registrarse como 'Oyente', 'Artista' o como 'Banda':
 
 ![alt text](media/SignUpScreen1.png)
 ![alt text](media/SignUpScreen2.png)
 
-Luego de ingresar sus datos el usuario recibe un mensaje por Whatsapp donde se indica cual es su PIN de validación de usuario:
+Luego de ingresar sus datos el Usuario recibe un mensaje por Whatsapp donde se indica cual es su PIN de validación de Usuario:
 
 ![alt text](media/PINScreen.png)
 
-Si el Usuario se registró como 'Artista' entonces será redireccionado a la pantalla de iniciar sesión, si entra como 'Oyente' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, una vez finalizado el registro del Usuario se podra entrar en la aplicación:
+Si el Usuario se registró como 'Artista' o como 'Banda' entonces entrara a la aplicación, si entra como 'Oyente' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, una vez finalizado el registro del Usuario se podra entrar en la aplicación:
 
 ![alt text](media/RequestMusicalPreferencesScreen.png)
 
-Si el Usuario ya se registro de manera exitosa entonces puede ingresar a la aplicación con su mail y contraseña:
-
-![alt text](media/SignInScreen.png)
-
-Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista' o 'Oyente':
+Si el Usuario ingresa de manera externa por primera vez entonces debera seleccinar si desea entrar como 'Artista', 'Oyente' o 'Banda':
 
 ![alt text](media/RequestUserTypeToExternalUser.png)
 
 Si en algun momento el Usuario olvida su contraseña entonces puede seleccionar una nueva con la pantalla de '¿Olvido su Contraseña?'
 
 ![alt text](media/ForgotPasswordScreen.png)
+
+Una vez dentro de la aplicación el Usuario primero se va a encontrar en la pantalla de Inicio. En esta pantalla se pueden ver una versión resumida de 3 muestras como maximo de lo que es el contenido favorito del Usuario (canciones o albumes) si el Usuario quiere ver la lista de albumes o canciones favoritos completa entonces debe oprimir en "ver mas" en cada lista:
+
+![alt text](media/HomeScreen.png)
+
+Arriba a la izquierda se puede ver un menu para poder navegar por la aplicacion.
+
+![alt text](media/MenuScreen.png)
+
+Primero vamos a la pantalla de Perfil. Todos los perfiles tienen una foto de perfil (con una imagen por defecto si el Usuario no elige una) y el nombre del Usuario, ademas en la parte superior de la derecha van a haber 2 botones: uno para ir a 'Editar Perfil' (Icono de Usuario con lapicera) y otro para ir a 'Lista de Notificaciones' (Icono de campana). Luego cada perfil sera diferente segun el tipo de Usuario:
+
+    *)Si es 'Oyente' el perfil incluye una lista de los generos musicales que el Usuario marco como favoritos, ademas de una muestra de como maximo 3 elementos de la lista de artistas que el Usuario esta siguiendo y de las Playlist que el Usuario creo.
+
+![alt text](media/ProfileScreenListener1.png)
+![alt text](media/ProfileScreenListener2.png)
+
+    *) Si es un 'Artista' entonces va a tener un boton de subir contenido, asi como la cantidad de seguidores que el artista tiene y un cartel que indica si el artista esta verificado o no. Ademas arriba a la derecha se agrega el boton para ir a 'Verificar Artista' (Icono de Usuario con un tilde).
+
+![alt text](media/ProfileScreenArtist.png)
+
+    *) El perfil de una 'Banda' es exactamente igual al de un 'Artista'. La diferencia es que se agrega arriba a la derecha un boton para ir a 'Agregar Integrantes de la Banda', desde ahi se podra agregar a los integrantes de una banda. Ademas se podra ver una lista con los integrantes de la misma. Hay que aclarar que una banda no podra subir contenido si no tiene integrantes.
+
+![alt text](media/ProfileScreenBand.png)
+
+    
 
 ## Guía de usuario del backoffice
 
