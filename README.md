@@ -37,7 +37,7 @@ Arriba a la izquierda se puede ver un menú para poder navegar por la aplicació
  
 Primero vamos a la pantalla de Perfil. Todos los perfiles tienen una foto de perfil (con una imagen por defecto si el Usuario no elige una) y el nombre del Usuario, además en la parte superior de la derecha van a haber 2 botones: uno para ir a 'Editar Perfil' (Icono de Usuario con lapicera) y otro para ir a 'Lista de Notificaciones' (Icono de campana). Luego cada perfil será diferente según el tipo de Usuario:
  
-- Si es 'Oyente' el perfil incluye una lista de los géneros musicales que el Usuario marca como favoritos, además de una muestra de como máximo 3 elementos de la lista de artistas que el Usuario está siguiendo y de las Playlist que el Usuario creó. Tambien cuenta con un boton para crear una Playlist.
+- Si es 'Oyente' el perfil incluye una lista de los géneros musicales que el Usuario marca como favoritos, además de una muestra de como máximo 3 elementos de la lista de artistas que el Usuario está siguiendo y de las Playlists que el Usuario creó. Tambien cuenta con un boton para crear una Playlist.
  
 ![alt text](media/ProfileScreenListener1.png)
 ![alt text](media/ProfileScreenListener2.png)
@@ -78,6 +78,24 @@ Para subir un album ir a la solapa de 'Albumes' e ingresar datos requeridos:
 - *Crear Playlist*: Solo para 'Oyente'. Aqui un oyente puede crear una playlist:
 
 ![alt text](media/CreatePlaylistScreen.png)
+
+- *Lista Notificaciones* (pendiente)
+
+Si el Usuario vuelve al Menu va a ver que hay una entrada que dice 'Usuarios'. Aqui se encuentra una lista con todos los usuarios registrados a la aplicación. Esta misma pantalla cuenta con una barra de busqueda para filtrar a los usuarios por nombre:
+
+![alt text](media/UserlistScreen.png)
+
+Si se selecciona cualquier usuario de la lista entonces su respectivo perfil. Al abrir el perfil de otro usuario se podra ver que todos los botones explicados antes han desaparecido y ahora aparece arriba a la derecha un boton para abrir el chat privado con el usuario seleccionado. Un caso particular es si el Usuario es un 'Oyente' y abre el perfil de un 'Artista' entonces se podra ver un boton para 'seguir' o 'dejar de seguir' al mismo:
+
+![alt text](media/ProfileScreenArtist2.png)
+
+Si el Usuario oprime el boton de chat privado entonces se abrira el chat con el Usuario. 
+
+![alt text](media/ChatScreen.png)
+
+Cuando se envie un mensaje entonces al destinatario recibira una notificacion indicando que ha recibido un mensaje y oprimir dicha notificion abrira para el destinatario el chat directo con el emisor del mensaje:
+
+![alt text](media/Notification.png)
 
 ## Guía de usuario del backoffice
 
