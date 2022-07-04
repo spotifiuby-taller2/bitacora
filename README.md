@@ -80,7 +80,7 @@ Para subir un álbum ir a la solapa de 'Álbumes' e ingresar datos requeridos:
  
 - *Lista Notificaciones*: muestra las notificaciones que los usuarios reciben. Oprimir una abre el chat privado con el usuario que le mandó la notificación correspondiente al enviarle un mensaje:
  
-![alt text](media/NotificationlistScreen.png)
+![alt text](media/NotificationListScreen.png)
  
 
 Si el Usuario vuelve al Menú va a ver que hay una entrada que dice 'Usuarios'. Contiene una lista con todos los usuarios registrados a la aplicación. Esta misma pantalla cuenta con una barra de búsqueda para filtrar a los usuarios por nombre. Cada usuario tiene una etiqueta que le permite reconocer su tipo: los audífonos son para los oyentes, el icono de usuario con nota musical es para los artistas y la banda se reconoce por el icono de grupo.
@@ -113,6 +113,7 @@ Para ver completa una de las listas se debe oprimir su respectivo 'ver más':
  
 ![alt text](media/SongListScreen.png)
 ![alt text](media/AlbumListScreen.png)
+.
 ![alt text](media/PlaylistListScreen.png)
 ![alt text](media/GenreListScreen.png)
  
@@ -126,7 +127,7 @@ Si se oprime el botón de información de algún álbum se abre la pantalla del 
  
 Si se oprime el botón de información de una playlist se abre la pantalla de la misma. Muestra información de la playlist junto con la lista de canciones y la lista de autores de la misma. Hay un botón para hacer la playlist pública o privada pero solo es visible para los autores de la misma:
  
-![alt text](media/PlalistScreen.png)
+![alt text](media/PlaylistScreen.png)
  
 Si se oprime la tarjeta de algun genero de la lista de géneros entonces se abre una lista con todos los álbumes de dicho género:
  
