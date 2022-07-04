@@ -3,41 +3,40 @@
 # Guía de usuario de la app Spotifiuby
 
 El Usuario entra por primera vez a la aplicación, lo primero que se va a encontrar es con la pantalla de Iniciar Sesión. Una vez aquí el usuario puede iniciar su sesión con mail y contraseña (si ya tiene una cuenta creada), puede navegar a las pantallas para registrarse y para recuperar contraseña, o puede iniciar sesión con Google o con datos biométricos si lo desea:
- 
+
 ![alt text](media/SignInScreen.png)
- 
+
 Si el Usuario no tiene una cuenta entonces primero necesita registrarse: oprime 'registrarse' e ingresa todos los datos solicitados por la aplicación. Un Usuario puede registrarse como 'Oyente', 'Artista' o como 'Banda':
- 
+
 ![alt text](media/SignUpScreen1.png)
 ![alt text](media/SignUpScreen2.png)
- 
+
 Luego de ingresar sus datos el Usuario recibe un mensaje por Whatsapp donde se indica cuál es su PIN de validación de Usuario:
- 
+
 ![alt text](media/PINScreen.png)
- 
+
 Si el Usuario se registró como 'Artista' o como 'Banda' entonces entrará a la aplicación, si entra como 'Oyente' entonces se le solicitará una ubicación y que seleccione sus intereses musicales, una vez finalizado el registro del Usuario se podrá entrar en la aplicación:
- 
+
 ![alt text](media/RequestMusicalPreferencesScreen.png)
- 
+
 Si el Usuario ingresa de manera externa por primera vez entonces deberá seleccionar si desea entrar como 'Artista', 'Oyente' o 'Banda':
- 
+
 ![alt text](media/RequestUserTypeToExternalUser.png)
- 
+
 Si en algún momento el Usuario olvida su contraseña entonces puede seleccionar una nueva con la pantalla de '¿Olvido su contraseña?'
- 
+
 ![alt text](media/ForgotPasswordScreen.png)
- 
+
 Una vez dentro de la aplicación el Usuario primero se va a encontrar en la pantalla de Inicio. En esta pantalla se pueden ver una versión resumida de 3 muestras como máximo de lo que es el contenido favorito del Usuario (canciones o álbumes) si el Usuario quiere ver la lista de álbumes o canciones favoritos completa entonces debe oprimir en "ver más" en cada lista:
- 
+
 ![alt text](media/HomeScreen.png)
- 
+
 Arriba a la izquierda se puede ver un menú para poder navegar por la aplicación.
- 
+
 ![alt text](media/Menu.png)
- 
+
 Primero vamos a la pantalla de Perfil. Todos los perfiles tienen una foto de perfil (con una imagen por defecto si el Usuario no elige una) y el nombre del Usuario, además en la parte superior de la derecha van a haber 2 botones: uno para ir a 'Editar Perfil' (Icono de Usuario con lapicera) y otro para ir a 'Lista de Notificaciones' (Icono de campana). Luego cada perfil será diferente según el tipo de Usuario:
- 
-- Si es 'Oyente' el perfil incluye una lista de los géneros musicales que el Usuario marca como favoritos, además de una muestra de como máximo 3 elementos de la lista de artistas que el Usuario está siguiendo y de las Playlists que el Usuario creó. Tambien cuenta con un boton para crear una Playlist.
+- Si es 'Oyente' el perfil incluye una lista de los géneros musicales que el Usuario marca como favoritos, además de una muestra de como máximo 3 elementos de la lista de artistas que el Usuario está siguiendo y de las Playlists que el Usuario creó. También cuenta con un botón para crear una Playlist.
  
 ![alt text](media/ProfileScreenListener1.png)
 ![alt text](media/ProfileScreenListener2.png)
@@ -56,46 +55,87 @@ Ahora vamos a analizar los pantallas a las que se puede ir desde un Perfil:
  
 ![alt text](media/EditProfileScreen1.png)
 ![alt text](media/EditProfileScreen2.png)
- 
-- *Verificar Cuenta*: Esta pantalla está únicamente habilitada para los 'Artista' y 'Banda', aquí se puede enviar el video para verificar al Artista.
- 
+
+- *Verificar Cuenta*: Esta pantalla está únicamente habilitada para los 'Artista' y 'Banda', aquí se puede enviar el video para verificar al artista.
+
 ![alt text](media/SendVerificationVideoScreen.png)
- 
+
 - *Agregar Integrantes*: Esta pantalla está habilitada solo para 'Banda', con ella se puede indicar cuales van a ser los integrantes de la banda:
- 
+
 ![alt text](media/AddMembersToBandScreen.png)
-
-
-- *Subir Contenido*: Solo para 'Artista' y 'Banda', como su nombre lo indica en esta pantalla se pueden subir canciones y albumes. Esta pantalla tiene 2 solapas que indican el tipo de contenido que puede subir cada una. Para subir una canción ir a la solapa de 'Canciones' e ingresar datos solicitados:
-
+ 
+ 
+- *Subir Contenido* Solo para 'Artista' y 'Banda', como su nombre lo indica en esta pantalla se pueden subir canciones y álbumes. Esta pantalla tiene 2 solapas que indican el tipo de contenido que puede subir cada una. Para subir una canción ir a la solapa de 'Canciones' e ingresar datos solicitados:
+ 
 ![alt text](media/UploadSongScreen1.png)
 ![alt text](media/UploadSongScreen2.png)
-
-Para subir un album ir a la solapa de 'Albumes' e ingresar datos requeridos:
-
+ 
+Para subir un álbum ir a la solapa de 'Álbumes' e ingresar datos requeridos:
+ 
 ![alt text](media/UploadAlbumScreen.png)
-
-- *Crear Playlist*: Solo para 'Oyente'. Aqui un oyente puede crear una playlist:
-
+ 
+- *Crear Playlist*: Solo para 'Oyente'. Aquí un oyente puede crear una playlist:
+ 
 ![alt text](media/CreatePlaylistScreen.png)
+ 
+- *Lista Notificaciones*: muestra las notificaciones que los usuarios reciben. Oprimir una abre el chat privado con el usuario que le mandó la notificación correspondiente al enviarle un mensaje:
+ 
+![alt text](media/NotificationlistScreen.png)
+ 
 
-- *Lista Notificaciones* (pendiente)
-
-Si el Usuario vuelve al Menu va a ver que hay una entrada que dice 'Usuarios'. Aqui se encuentra una lista con todos los usuarios registrados a la aplicación. Esta misma pantalla cuenta con una barra de busqueda para filtrar a los usuarios por nombre:
-
-![alt text](media/UserlistScreen.png)
-
-Si se selecciona cualquier usuario de la lista entonces su respectivo perfil. Al abrir el perfil de otro usuario se podra ver que todos los botones explicados antes han desaparecido y ahora aparece arriba a la derecha un boton para abrir el chat privado con el usuario seleccionado. Un caso particular es si el Usuario es un 'Oyente' y abre el perfil de un 'Artista' entonces se podra ver un boton para 'seguir' o 'dejar de seguir' al mismo:
-
+Si el Usuario vuelve al Menú va a ver que hay una entrada que dice 'Usuarios'. Contiene una lista con todos los usuarios registrados a la aplicación. Esta misma pantalla cuenta con una barra de búsqueda para filtrar a los usuarios por nombre. Cada usuario tiene una etiqueta que le permite reconocer su tipo: los audífonos son para los oyentes, el icono de usuario con nota musical es para los artistas y la banda se reconoce por el icono de grupo.
+ 
+![alt text](media/UserListScreen.png)
+ 
+Si se selecciona cualquier usuario de la lista entonces su respectivo perfil. Al abrir el perfil de otro usuario se podrá ver que todos los botones explicados antes han desaparecido y ahora aparece arriba a la derecha un botón para abrir el chat privado con el usuario seleccionado. Un caso particular es si el Usuario es un 'Oyente' y abre el perfil de un 'Artista' entonces se podrá ver un botón para 'seguir' o 'dejar de seguir' al mismo:
+ 
 ![alt text](media/ProfileScreenArtist2.png)
-
-Si el Usuario oprime el boton de chat privado entonces se abrira el chat con el Usuario. 
-
+ 
+Si el Usuario oprime el botón de chat privado entonces se abrirá el chat con el Usuario.
+ 
 ![alt text](media/ChatScreen.png)
-
-Cuando se envie un mensaje entonces al destinatario recibira una notificacion indicando que ha recibido un mensaje y oprimir dicha notificion abrira para el destinatario el chat directo con el emisor del mensaje:
-
+ 
+Cuando se envíe un mensaje entonces al destinatario recibirá una notificación indicando que ha recibido un mensaje y presionarla abrirá para el destinatario el chat directo con el emisor del mensaje:
+ 
 ![alt text](media/Notification.png)
+ 
+La lista de artistas del Menú funciona exactamente como la de usuarios pero solo muestra aquellos usuarios de tipo 'Artista' y 'Banda':
+ 
+![alt text](media/ArtistlistScreen.png)
+ 
+Luego aparece en el Menu la pantalla de contenido. Esta pantalla contiene la lista de todas las canciones, la lista de todos los álbumes, la lista de todas las Playlists que son públicas y la lista de todo el contenido según su género. Cada una de estas listas no aparece completa, solo hay una muestra de como máximo 3 elementos.
+ 
+![alt text](media/ContentScreen1.png)
+![alt text](media/ContentScreen2.png)
+![alt text](media/ContentScreen3.png)
+ 
+Para ver completa una de las listas se debe oprimir su respectivo 'ver más':
+ 
+![alt text](media/SongListScreen.png)
+![alt text](media/AlbumListScreen.png)
+![alt text](media/PlaylistListScreen.png)
+![alt text](media/GenreListScreen.png)
+ 
+Si se oprime el botón de información de una canción se abre la pantalla de la misma. Muestra información de la canción como título y autores de la misma. Además se puede agregar/quitar la canción de favoritos:
+ 
+![alt text](media/SongScreen.png)
+ 
+Si se oprime el botón de información de algún álbum se abre la pantalla del mismo. Muestra información del álbum junto con la lista de canciones y de autores del mismo. Además se puede agregar/quitar el album de favoritos:
+ 
+![alt text](media/AlbumScreen.png)
+ 
+Si se oprime el botón de información de una playlist se abre la pantalla de la misma. Muestra información de la playlist junto con la lista de canciones y la lista de autores de la misma. Hay un botón para hacer la playlist pública o privada pero solo es visible para los autores de la misma:
+ 
+![alt text](media/PlalistScreen.png)
+ 
+Si se oprime la tarjeta de algun genero de la lista de géneros entonces se abre una lista con todos los álbumes de dicho género:
+ 
+![alt text](media/PopListScreen.png)
+ 
+Por último se puede ver que en la barra de reproducción aparece la canción que que se está escuchando. Si se oprime esta barra se abre la pantalla de reproducción, aquí se puede ir a la siguiente canción, a la anterior o escuchar la canción en cualquier minuto que se prefiera:
+ 
+![alt text](media/SongPlayerScreen.png)
+
 
 ## Guía de usuario del backoffice
 
