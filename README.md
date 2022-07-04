@@ -101,7 +101,7 @@ Cuando se envíe un mensaje entonces al destinatario recibirá una notificación
  
 La lista de artistas del Menú funciona exactamente como la de usuarios pero solo muestra aquellos usuarios de tipo 'Artista' y 'Banda':
  
-![alt text](media/ArtistlistScreen.png)
+![alt text](media/ArtistListScreen.png)
  
 Luego aparece en el Menu la pantalla de contenido. Esta pantalla contiene la lista de todas las canciones, la lista de todos los álbumes, la lista de todas las Playlists que son públicas y la lista de todo el contenido según su género. Cada una de estas listas no aparece completa, solo hay una muestra de como máximo 3 elementos.
  
