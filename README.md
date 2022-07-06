@@ -156,9 +156,40 @@ Al seguir el enlace enviado por mail, se podrá ingresar la nueva contraseña.
 
 Una vez que se ingresa a la aplicación, un menú superior permite ver las distintas pantallas.
 
-La de métricas muestra un tablero de Datadog con estadísticas de interés.
+La de usuarios permite acceder al perfil de los mismos, así como bloquearlos, o marcar a los artistas como verificados.
+
+![alt text](media/backoffice/usuarios_principal.png)
+
+Al hacer clic en "Ver perfil", se pueden ver las pantallas asociadas a un oyente y a un artista.
+
+![alt text](media/backoffice/perfil_usuario.png)
+
+![alt text](media/backoffice/perfil_artista.png)
+
+Se puede crear un administrador con el botón correspondiente
+
+![alt text](media/backoffice/create_user.png)
+
+En todas las pantallas se pueden filtrar las columnas, así como también utililizar la barra de búsqueda:
+
+![alt text](media/backoffice/barra_busqueda.png)
+
+La pantalla de servicios muestra los componentes de la plataforma, teniendo la posibilidad de bloquearlos o agregar uno nuevo. 
+
+![alt text](media/backoffice/services.png)
+
+La pantalla de contenido muestra el contenido subido a la plataforma, permitiéndole al administrador bloquearlo. 
+
+![alt text](media/backoffice/content.png)
+
+La pantalla de transacciones muestra los pagos hechos por los usuarios para acceder al contenido premium.
+
+![alt text](media/backoffice/transactions.png)
+
+La pantalla de métricas muestra un tablero de Datadog con estadísticas de interés.
 
 ![alt text](media/front_metrics.png)
+
 
 # Bitacora del proyecto
 
@@ -262,10 +293,11 @@ Al agregar contenido premium en una playlist pública, cuando un usuario que no 
 - Contrato dado por la cátedra desplegado en Kovan.
 
 ### Semana del 26/6/2022
-- Aumento de cobertura en todos los repositorios llegando a niveles cercanos a los esperados. 
+- Aumento de cobertura en todos los repositorios. 
 - Avances sobre el pago de la suscripción.
 
 ### Semana del 3/7/2022
+- Aumento de la cobertura.
 - Pago de la suscripción exitoso.
 - Corrección de detalles en app.
 - Preparación para la demo.
